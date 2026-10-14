@@ -1,0 +1,27 @@
+# Binaries
+/bin/
+*.exe
+*.test
+*.out
+
+# Go build cache / coverage
+coverage.txt
+*.prof
+
+# Local environment / secrets
+.env
+.env.local
+*.key
+credentials.json
+service-account*.json
+
+# Local storage providers config with real credentials
+config.local.toml
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
